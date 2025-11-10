@@ -1,5 +1,5 @@
-###### As I demonstrated in 16 Questions, probability of a problem is the single most important factor for its difficulty for LLMs. Higher probability problems have lower difficulty, and vice versa.
-###### This is an example prompt to GPT 5 High to generate problems of different probability (so different difficulty too).
+As I demonstrated in 16 Questions, probability of a problem is the single most important factor for its difficulty for LLMs. Higher probability problems have lower difficulty, and vice versa.
+This is an example prompt to GPT 5 High to generate problems of different probability (so different difficulty too).
 
 # User
 
