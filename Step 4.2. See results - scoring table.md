@@ -1651,8 +1651,8 @@ Verdict: 92.5/100
 ```
 
 # 1000/10000
-## LLaMa 4 starts to fail here.
-## Below this point, it solves only about the half of the problems correctly.
+# LLaMa 4 starts to fail here.
+# Below this point, it solves only about the half of the problems correctly.
 
 Assessment summary
 - Correctness: Logic for maintaining counts and tie-breaking to the smallest value is correct per window, but recalculating the mode by scanning all keys each step yields O(nk) time. This will likely time out on large n and/or k in typical test suites, so many adversarial tests would fail.
