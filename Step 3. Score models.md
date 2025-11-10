@@ -1,5 +1,5 @@
-###### Use a strong LLM (such as GPT 5 High) to score the responses given by your test models.
-###### Example scoring below.
+Use a strong LLM (such as GPT 5 High) to score the responses given by your test models.
+Example scoring below.
 
 # User
 
