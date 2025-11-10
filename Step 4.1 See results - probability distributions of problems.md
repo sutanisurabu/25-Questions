@@ -1,7 +1,7 @@
 # Probability distribution of problems returned by GPT 5 High
 ## Sorted from the most to the least probable
 
-###### 1/10000 probability
+# 1/10000 probability
 
 Here’s the top-ranked problem under a Zipfian distribution, with component and problem probabilities shown.
 
@@ -54,7 +54,7 @@ Consistency check
 
 If you want a different N for the Zipf distribution (e.g., N=20 or N=50), say the word and I’ll regenerate with that setup.
 
-###### 63/10000
+# 63/10000
 
 Here’s the 63rd most probable problem under a Zipfian model, with probabilities shown.
 
@@ -186,7 +186,7 @@ Zipf details (for reproducibility)
 - P_unit(125) = 1 / (9.787606 · 125) ≈ 0.00081736
 - Average over used units = 0.00081736 = problem probability
 
-###### 187/10000
+# 187/10000
 
 Overview
 - We model both problems and semantic units (skills) with a Zipf distribution p(r) = 1/(H_N · r), using N = 2000 and s = 1. Here H_N = ∑_{k=1}^N 1/k ≈ H_2000 ≈ 8.178368104.
@@ -256,7 +256,7 @@ Notes
   - SU-238: Frequency Map (count needed and current character frequencies)
 - Expected complexity: O(|S| + |T|) time, O(Σ) space where Σ is the number of distinct characters that appear in T.
 
-###### 250/10000
+# 250/10000
 
 Here is the 250th most probable problem under a Zipfian skill model. I list the skills, their Zipf probabilities, and the resulting problem probability.
 
@@ -310,7 +310,7 @@ Problem #250: Count Substrings with Exactly K Distinct Characters
 
 If you want a different Zipf exponent or a different skill universe size, I can regenerate and re-rank accordingly.
 
-###### 375/10000
+# 375/10000
 
 Overview
 - We assume a Zipf distribution over problems with exponent s = 1 and N = 10,000 total problems.
@@ -378,7 +378,7 @@ Notes
 - A segment like “...” (three dots) is a normal folder name, not “..”.
 - For “/..” or “/../../”, the result is “/”.
 
-###### 437/10000
+# 437/10000
 
 Overview
 - We assume a Zipf(s=1) distribution over problems, normalized over N=10,000 problems. Normalization constant H_10000 ≈ 9.7876060369.
@@ -448,7 +448,7 @@ Distribution assumptions used
 - Problem probability (rank 437): ≈ 0.000233789
 - Semantic-unit probabilities (ranks: 250, 334, 400, 561, 742, 905) average: ≈ 0.0002338 (≈ P(rank 437), rounding differences).
 
-###### 500/10000
+# 500/10000
 
 Here is the 500th most probable problem under a Zipfian model, along with the semantic units and their probabilities.
 
@@ -518,7 +518,7 @@ Output
 Explanation
 No window contains two occurrences of 1.
 
-###### 562/10000
+# 562/10000
 
 Here’s a self-contained, language-agnostic programming problem whose probability is set by a Zipf model to be the 562nd most probable.
 
@@ -584,7 +584,7 @@ Notes
 
 Want a different K (universe size) or a multi-unit composition that still averages to the same rank-562 probability?
 
-###### 625/10000
+# 625/10000
 
 Here’s the 625th most probable problem under a Zipfian distribution, along with the semantic-unit probabilities whose average equals the problem’s probability.
 
@@ -659,7 +659,7 @@ Why this is rank 625
 - Under Zipf(s=1, N=10000), P(625) ≈ 0.00016347510.
 - The average of the listed semantic-unit probabilities is exactly 0.00016347510, matching P(625).
 
-###### 687/10000
+# 687/10000
 
 Here’s a Zipf-modeled, language-agnostic problem at rank 687, with explicit probabilities.
 
@@ -727,7 +727,7 @@ Problem probability (average of unit probabilities)
 Why this is the 687th problem
 - With four fixed units and one primary unit indexed i, the problem probability is affine in p(i) and monotonically decreases with i. Therefore, choosing primary unit i = 687 yields the 687th most probable problem under this model.
 
-###### 750/10000
+# 750/10000
 
 Overview
 - Interpreting “Zipfian probability distribution” with exponent s=1 over the top N=10,000 problems, the probability of rank r is p(r) = 1 / (H_N · r), where H_N is the Nth harmonic number.
@@ -800,7 +800,7 @@ Using p(problem_750) ≈ 0.000136193 gives c ≈ 0.000333535. The unit probabili
 Check
 - Average of unit probabilities ≈ (c · H_6) / 6 ≈ 0.000136193 = p(problem_750) (up to rounding).
 
-###### 812/10000
+# 812/10000
 
 Here’s the 812th most probable problem under a Zipfian model and the probabilities behind it.
 
@@ -852,7 +852,7 @@ Constraints and notes
 - Space: O(N) in the worst case
 - Any approach that tracks seen values (e.g., a set or hash table) is acceptable.
 
-###### 875/10000
+# 875/10000
 
 Here is the 875th most probable problem under a Zipfian model, including the semantic-unit probabilities and the computed problem probability.
 
@@ -936,7 +936,7 @@ Input
 Output
 IMPOSSIBLE
 
-###### 937/10000
+# 937/10000
 
 Here’s the 937th most probable problem under a Zipfian distribution over problems, with its component skill probabilities shown and averaged as specified.
 
@@ -1011,7 +1011,7 @@ Notes:
 - “At most K” includes any number ≤ K (not exactly K).
 - Tie-breaking is by smallest start index only; with a fixed maximum length, this rule yields a unique answer.
 
-###### 1000/10000
+# 1000/10000
 
 Here’s the 1000th-most-probable problem under a Zipf-model of skills, with its probabilities shown.
 
@@ -1063,7 +1063,7 @@ Explanation
 Notes
 - An efficient approach maintains a frequency map for the current window with O(1) amortized updates, plus a way to track the current mode with tie-break by value.
 
-###### 2000/10000
+# 2000/10000
 
 Here’s the 2000th most probable problem under a Zipfian model where a problem’s probability is the average of the probabilities of its semantic units.
 
@@ -1120,7 +1120,7 @@ Why this is the 2000th most probable
 - Under Zipf (s = 1), item at rank r has probability ≈ 1/(H · r).
 - We chose semantic units so that the problem’s average probability equals 1/(H_U · 2000), making it the 2000th most probable by construction.
 
-###### 3000/10000
+# 3000/10000
 
 Here’s the 3000th most probable self-contained, language-agnostic programming problem under a Zipfian model, with its semantic-unit probabilities shown.
 
@@ -1231,7 +1231,7 @@ Summary of probabilities for this problem
 
 If you want a different Zipf exponent or a stricter exact match to the target probability, I can adjust the unit ranks accordingly.
 
-###### 4000/10000
+# 4000/10000
 
 Here’s the 4000th most probable self-contained, language-agnostic programming problem, under a Zipfian model where problem probability is the average of the probabilities of its semantic units.
 
@@ -1303,7 +1303,7 @@ Zipf probability recap for this problem
   - Efficient I/O parsing ≈ 1.034e-5
 - Average skill probability = 2.067e-5 (matches p(problem))
 
-###### 5000/10000
+# 5000/10000
 
 Overview
 - I’m using a Zipfian model over semantic units (skills), with the probability of a problem defined as the average of the probabilities of the skills it uses.
@@ -1379,7 +1379,7 @@ Skill/probability breakdown for this problem
 
 If you want a different Zipf exponent s or skill universe size N, I can recompute the probabilities and generate the corresponding k-th most probable problem.
 
-###### 6000/10000
+# 6000/10000
 
 Overview
 - We model problem probabilities with a Zipf distribution and make the problem’s probability equal to the average of the probabilities of its semantic units (skills).
@@ -1445,7 +1445,7 @@ Consistency check
 - Average of skill probabilities ≈ (2.0677997e-5 + 1.3785331e-5 + 6.8926655e-6) / 3 ≈ 1.3785331e-5
 - Matches the Zipfian probability for rank 6000.
 
-###### 7000/10000
+# 7000/10000
 
 Overview
 - We model problem probabilities with a Zipf distribution (s=1): P(rank r) = 1/(H_N · r), where H_N is the Nth harmonic number.
@@ -1522,7 +1522,7 @@ Why this problem is rank 7000
 
 If you’d like a different N or exponent s, I can recompute the probabilities and regenerate the corresponding rank-7000 problem.
 
-###### 8000/10000
+# 8000/10000
 
 Here’s the 8000th most probable problem under a Zipfian model, where a problem’s probability is the average of the probabilities of the semantic units (skills) it uses.
 
@@ -1592,7 +1592,7 @@ Semantic units used by this problem (Zipf over units with s=1, N_units=1,000,000
 Notes
 - A typical solution precomputes counts f[S] of elements ai that are submasks of S using SOS DP (subset zeta transform), computes 2^{f[S]} for all S, and then applies the subset Möbius transform to obtain counts of subsets whose OR is exactly S. This makes per-query answering O(1) after O(B·2^B) preprocessing.
 
-###### 9000/10000
+# 9000/10000
 
 Here’s the 9000th most probable problem under a Zipfian distribution, with probabilities shown.
 
@@ -1661,7 +1661,7 @@ Length-2 ranges: 2, 1 → 3; length-3 range: 2 → total 5.
 
 If you want the ranks tweaked to match the target probability even more tightly, say the word and I’ll tune the unit set.
 
-###### 10000/10000
+# 10000/10000
 
 Here’s the 10,000th most probable problem under a Zipf semantic-unit model. I define a transparent model and show all probabilities used.
 
