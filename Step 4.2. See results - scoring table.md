@@ -1,5 +1,5 @@
 Now you will see that the performance of LLaMa 4 (as judged by GPT 5 High) degrades as it attempts to solve increasingly problems that involve increasingly rare concepts and ideas, just as predicted by the 16 Questions article.
-This phenomenon allows an automatic generation of benchmarks with predictable difficulty curve - just like I did for this one!
+This phenomenon allows automatic generation of benchmarks with predictable difficulty curve - just like I did for this one!
 LLaMa 4's performance starts to notably degrade at the question 1000/10000 and below.
 
 # Probability distribution of problems returned by GPT 5 High
