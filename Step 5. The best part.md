@@ -6,7 +6,7 @@ I literally do not have any skills (and time an patience) to produce such a benc
 
 Yet I did. I have successfully prompted GPT-5 High into generating a distribution of real-world coding challenges with predictable curve of difficulty for LLMs.
 It was able to predict the problems' difficulty with reasonable accuracy (as a function of probability) and judge the tested model without even attempting to run the code.
-The performance of LLaMa 4 drops predictably on increasingly rare problems, and just as I showed in the 16 Questions article, this behavior is uniform in all modern LLMs, so this method can be used to evaluate and predict relative problem difficulty in ANY model!
+The performance of LLaMa 4 drops predictably on increasingly rare problems, and since this behavior is uniform in all modern LLMs (see the 16 Questions article), this method can be used to evaluate and predict relative problem difficulty in ANY model!
 
 This approach also solves benchmark hacking - since updating an eval becomes just as easy as prompting a strong model for a new probability distribution, updating contaminated evals costs virtually nothing.
 
