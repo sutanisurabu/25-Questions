@@ -7,7 +7,7 @@ Probability of a problem is the average of probabilities of semantic units (skil
 
 You will be generating Zipfian probability distributions of self-contained language-agnostic programming problems. Display probabilities.
 
-###### You can replace the number with any integer.
+###### You can replace the number with any integer
 Generate the 1st most probable problem.
 
 # GPT 5 High
