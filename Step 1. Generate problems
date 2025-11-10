@@ -1,0 +1,64 @@
+###### As I demonstrated in 16 Questions, probability of a problem is the single most important factor for its difficulty for LLMs. Higher probability problems have lower difficulty, and vice versa.
+###### This is an example prompt to GPT 5 High to generate problems of different probability (so different difficulty too).
+
+# User
+
+Probability of a problem is the average of probabilities of semantic units (skills/knowledge components) used in the problem.
+
+You will be generating Zipfian probability distributions of self-contained language-agnostic programming problems. Display probabilities.
+
+###### You can replace the number with any integer.
+Generate the 1st most probable problem.
+
+# GPT 5 High
+
+Here’s the top-ranked problem under a Zipfian distribution, with component and problem probabilities shown.
+
+Zipf setup (problems)
+- Number of problems (N): 10
+- Harmonic number H_10 ≈ 2.928968254
+- Zipf probability for rank r: p(r) = 1 / (r · H_10)
+- This problem’s rank: r = 1
+- Problem probability p(1) ≈ 1 / 2.928968254 ≈ 0.3414
+
+Problem P1 — Sum of N Integers
+- Task: Given an integer N followed by N integers, output their sum.
+- Input:
+  - Line 1: N (0 ≤ N ≤ 200000)
+  - Line 2+: N space-separated integers a_i (−10^9 ≤ a_i ≤ 10^9)
+- Output: Single integer — the sum of all a_i.
+- Notes:
+  - If N = 0, output 0.
+  - Ensure the chosen numeric type can hold the sum (e.g., up to about 2×10^14 under the given constraints).
+
+Examples
+- Input:
+  5
+  1 2 3 4 5
+  Output:
+  15
+
+- Input:
+  3
+  -2 0 7
+  Output:
+  5
+
+- Input:
+  0
+  Output:
+  0
+
+Semantic units (skills) and their probabilities
+| Semantic unit                     | Probability |
+|----------------------------------|-------------|
+| Input parsing (tokens/lines)     | 0.3400      |
+| Loop/iteration over a sequence   | 0.3450      |
+| Integer addition/accumulation    | 0.3392      |
+
+Consistency check
+- Problem probability (Zipf, rank 1): 0.3414
+- Average of semantic units: (0.3400 + 0.3450 + 0.3392) / 3 = 1.0242 / 3 = 0.3414
+- Match: Yes ✅
+
+If you want a different N for the Zipf distribution (e.g., N=20 or N=50), say the word and I’ll regenerate with that setup.
